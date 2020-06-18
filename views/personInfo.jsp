@@ -135,6 +135,7 @@
         }
     }
 </script>
+
 <style>
     body {
         background-color: #eee;
@@ -303,5 +304,6 @@
     function randomIntFromInterval(mn, mx) {
         return ~~(Math.random() * (mx - mn + 1) + mn);
     }</script>
+
 </body>
 </html>

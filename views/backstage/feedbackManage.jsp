@@ -12,20 +12,9 @@
     <link type="text/css" rel="stylesheet"
           href="${pageContext.request.contextPath }/resources/css/feedbackManage.css" />
 
-    <title>EBook-反馈处理</title>
-    <style>
-        .draw{
-            position:absolute;
-            left:0px;
-            top:0px;
-            z-index:-1
-        }
-    </style>
+    <title>EBook - 反馈处理</title>
 </head>
 <body>
-<div class="draw">
-     id="c"></canvas>
-</div>
 <nav id="nav" class="navbar navbar-default" role="navigation">
     <div class="container container-fluid">
         <div class="navbar-header">
@@ -33,9 +22,9 @@
         </div>
         <div class="nav">
             <ul class="nav navbar-nav h4">
-                <li class="active"><a href="bookManage">书籍管理</a></li>
+                <li><a href="bookManage">书籍管理</a></li>
                 <li><a href="userManage">用户管理</a></li>
-                <li><a href="feedbackManage">反馈处理</a></li>
+                <li class="active"><a href="feedbackManage">反馈处理</a></li>
             </ul>
             <div id="user" class="pull-right">
                 <h4 class="text-primary">欢迎进入EBook后台管理系统！&nbsp;
@@ -116,6 +105,9 @@
 <script src="${pageContext.request.contextPath}/resources/js/jquery-3.1.1.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/feedbackManage.js"></script>
+<div class="draw">
+    <canvas  id="c"></canvas>
+</div>
 
 <script>
     ;(function() {

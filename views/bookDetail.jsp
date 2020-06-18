@@ -14,6 +14,7 @@
 
 
     <title>EBook - 图书详情</title>
+
 </head>
 <body>
 
@@ -23,7 +24,6 @@
 
 
 <div id="bookDetail" class="container">
-
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-danger">

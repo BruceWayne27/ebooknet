@@ -13,6 +13,7 @@
 
 
     <title>EBook - 首页</title>
+    <link rel="stylesheet" href="css/style.css">
 
 <%--背景1--%>
     <style>
@@ -54,6 +55,8 @@ body {
 }
 </style>
     <%--背景1--%>
+
+
 </head>
 <body>
 
@@ -178,6 +181,7 @@ body {
     <p class="text-center">
         &copy; brucewayne
     </p>
+
 </footer>
 
 <script src="${pageContext.request.contextPath}/resources/js/jquery-3.1.1.min.js"></script>
